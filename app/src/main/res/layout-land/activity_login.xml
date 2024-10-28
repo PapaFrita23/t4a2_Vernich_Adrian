@@ -68,32 +68,36 @@ tools:context=".MainActivity">
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnPosicionGlobal"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/global" />
-                    <Button
+                        android:text="@string/global"
+                        app:icon="@drawable/ic_diamond"/>
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnMovimientos"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/movement" />
+                        android:text="@string/movement"
+                        app:icon="@drawable/ic_movements"/>
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnTransferencia"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/transference" />
-                    <Button
+                        android:text="@string/transference"
+                        app:icon="@drawable/ic_tranference"/>
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnContrasenya"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/password" />
+                        android:text="@string/password"
+                        app:icon="@drawable/ic_password"/>
                 </TableRow>
 
                 <TableRow
@@ -101,16 +105,18 @@ tools:context=".MainActivity">
                     android:layout_height="match_parent"
                     android:gravity="center">
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnPromocion"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/promotion" />
-                    <Button
+                        android:text="@string/promotion"
+                        app:icon="@drawable/ic_promotions"/>
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnCajero"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/cashiers" />
+                        android:text="@string/cashiers"
+                        app:icon="@drawable/ic_cashier"/>
                 </TableRow>
 
                 <TableRow
@@ -118,11 +124,12 @@ tools:context=".MainActivity">
                     android:layout_height="match_parent"
                     android:gravity="center">
 
-                    <Button
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnSalir"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="@string/exit" />
+                        android:text="@string/exit"
+                        app:icon="@drawable/ic_exit"/>
                 </TableRow>
             </TableLayout>
         </LinearLayout>
